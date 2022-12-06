@@ -3,6 +3,7 @@ Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uit
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Look and feel - custom properties
+<br><img width="1392" alt="Schermafbeelding 2022-11-24 om 13 37 50" src="https://user-images.githubusercontent.com/112861144/205958877-1d52e3ca-ca92-48a5-aa00-c2f79e817253.png">
 
 # Beschrijving
 In het college Workshop hebben we CSS voor Styleguides uitgelegd gekregen hoe je CSS slimmer kan inzetten.
