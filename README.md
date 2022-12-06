@@ -17,6 +17,23 @@ Je leert wat custom properties en container queries zijn en hoe je ze kan gebrui
 * CSS naming conventions that will save you hours of debugging
 * Basis voorbeeld template HTML & CSS structuur
 
+# Tools
+
+Tools:
+VSCode
+Miro
+Illustrator
+Pen & Papier
+Laptop
+
+Gebruikte technieken:
+HTML
+CSS
+Javascript (menu)
+
+Communicatie middelen:
+Microsoft Teams
+
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
