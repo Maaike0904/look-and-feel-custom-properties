@@ -7,6 +7,9 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 # Beschrijving
 In het college Workshop hebben we CSS voor Styleguides uitgelegd gekregen hoe je CSS slimmer kan inzetten.
 
+# Doel van de opdracht
+Je leert wat custom properties en container queries zijn en hoe je ze kan gebruiken voor een slimmere, consistentere en beter onderhoudbare CSS. Daarnaast kijk je ook hoe je jouw CSS bestand kan structureren.
+
 # Bronnen
 * Container Queries
 * Cyd Container Query testjes
