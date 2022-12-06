@@ -4,13 +4,15 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Look and feel - custom properties
 
+# Beschrijving
+In het college Workshop hebben we CSS voor Styleguides uitgelegd gekregen hoe je CSS slimmer kan inzetten.
+
 # Bronnen
 * Container Queries
 * Cyd Container Query testjes
 * A complete guide to Custom Properties
 * CSS naming conventions that will save you hours of debugging
 * Basis voorbeeld template HTML & CSS structuur
-
 
 ## Licentie
 
