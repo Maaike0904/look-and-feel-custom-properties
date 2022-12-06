@@ -19,20 +19,20 @@ Je leert wat custom properties en container queries zijn en hoe je ze kan gebrui
 
 # Tools
 
-Tools:
-VSCode
-Miro
-Illustrator
-Pen & Papier
-Laptop
+TOOLS 🧰:
+* VSCode
+* Miro
+* Illustrator
+* Pen & Papier
+* Laptop
 
-Gebruikte technieken:
-HTML
-CSS
-Javascript (menu)
+GEBRUIKTE TECHNIEKEN 🛠️ :
+* HTML
+* CSS
+* Javascript (menu)
 
-Communicatie middelen:
-Microsoft Teams
+COMMUNICATIEMIDDELEN 🗣️:
+* Microsoft Teams
 
 ## Licentie
 
