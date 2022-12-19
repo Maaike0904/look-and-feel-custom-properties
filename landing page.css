@@ -11,6 +11,13 @@
   --font-size-txt:40px;
 }
 
+@font-face {
+  --font:'Montserrat',sans-serif;
+  --bold-font:bolder;
+}
+
+
+
 /* ---- BODY SETTINGS ---- */
 
 body {
@@ -47,7 +54,7 @@ h1{
 p{
   font-size: var(--font-size-txt);
   font-family: var(--font);
-  color: var(--txt-color);
+  color: var(--menu-txt-color);
   margin-top: .5em;
   margin-left: 10%;
   margin-right: 10%;
@@ -149,7 +156,7 @@ p{
 } 
 
 .navigation ul li a .icon ion-icon {
-  font-size: var(--font-size-txt);
+  font-size: 26px;
 }
 
 .navigation ul li a .title {
