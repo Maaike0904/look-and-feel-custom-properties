@@ -1,41 +1,78 @@
-> _Fork_ deze deeltaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Look and feel - custom properties
-<br><img width="1392" alt="Schermafbeelding 2022-11-24 om 13 37 50" src="https://user-images.githubusercontent.com/112861144/205958877-1d52e3ca-ca92-48a5-aa00-c2f79e817253.png">
+# Vini Mini 🥜 - Living Styleguide
 
-# Beschrijving
-In het college Workshop hebben we CSS voor Styleguides uitgelegd gekregen hoe je CSS slimmer kan inzetten.
+![image](https://user-images.githubusercontent.com/112861261/202513222-da942869-c7f0-4247-a1bd-214f311c280d.png)
 
-# Doel van de opdracht
-Je leert wat custom properties en container queries zijn en hoe je ze kan gebruiken voor een slimmere, consistentere en beter onderhoudbare CSS. Daarnaast kijk je ook hoe je jouw CSS bestand kan structureren.
+## 📚 Inhoudsopgave
 
-# Bronnen
-* Container Queries
-* Cyd Container Query testjes
-* A complete guide to Custom Properties
-* CSS naming conventions that will save you hours of debugging
-* Basis voorbeeld template HTML & CSS structuur
+* [Beschrijving](#beschrijving)
+* [Kenmerken](#kenmerken)
+* [Bronnen](#bronnen)
+* [Licentie](#licentie)
 
-# Tools
+## 🗒️ Beschrijving
+<strong>Living Styleguide 🖌️:</strong>
+<ul>
+<li>Het doel van deze opdracht: is een Living Styleguide maken voor je opdrachtgever.</li>
+<li> Lees meer in de wiki over de hele proces, van het Living styleguide: https://github.com/Nazneen05x/look-and-feel-living-styleguide/wiki</li>
+</ul>
 
-TOOLS 🧰:
-* VSCode
-* Miro
-* Illustrator
-* Pen & Papier
-* Laptop
+<strong>Opdrachtgever Vini Mini 🥜:</strong>
+<ul>
+<li>Vini Mini is een start up en is opgericht door twee moeders, Vini Mini verkoopt producten om vroegtijdig allergenen te voorkomen. Vini Mini wil in de toekomst hun assortiment verbreiden met meer allergenen en ze willen doorgroeien in heel Europa.</li>
+</ul>
 
-GEBRUIKTE TECHNIEKEN 🛠️ :
-* HTML
-* CSS
-* Javascript (menu)
+## 👩🏼‍💻👩🏾‍💻👨🏻‍💻👨🏼‍💻 Kenmerken
 
-COMMUNICATIEMIDDELEN 🗣️:
-* Microsoft Teams
+Lijst met gebruikte tools, technieken en communicatie middelen.
 
-## Licentie
+<ul>
+<li><strong>TOOLS 🧰:</strong></li>
+<li>VSCode</li>
+<li>Miro</li>
+<li>Illustrator</li>
+<li>Pen & Papier</li>
+<li>Laptop</li>
+</ul>
+
+<ul>
+<li><strong>GEBRUIKTE TECHNIEKEN 🛠️:</strong></li>
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript (menu)</li>
+</ul>
+
+<ul>
+<li><strong>COMMUNICATIE MIDDELEN 🗣️:</strong></li>
+<li>Microsoft Teams</li>
+</ul>
+
+## 💻 Gebruik
+
+Het gemaakte Living Styleguide, kun je bekijken op desktop en mobile (telefoon).
+
+![image](https://user-images.githubusercontent.com/112861261/202927546-117e4a6c-ad6e-432c-8e01-e5d98b90568e.png)
+
+Bekijk hier de website: http://living-styleguide-vinimini.student.fdnd.nl/
+
+
+## 🌐 Bronnen
+
+<ul>
+
+<li>https://miro.com/app/board/uXjVPEccf3o=/</li>
+
+<li>https://vinimini.nl/</li>
+
+<li>https://github.com//</li>
+
+<li>https://www.google.nl/</li>
+
+</ul>
+
+
+
+## 🔒 Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 

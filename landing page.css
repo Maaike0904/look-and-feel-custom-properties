@@ -1,3 +1,18 @@
+:root{
+  --font:'Montserrat',sans-serif;
+  --bold-font:bolder;
+
+  --main-color: #72AFA6;
+  --menu-txt-color:#fff;
+  --txt-color:#222;
+  --background-color:white;
+
+  --font-size-h1:48px;
+  --font-size-txt:40px;
+}
+
+/* ---- BODY SETTINGS ---- */
+
 body {
   margin: 0 auto;
   min-height: 100vh;
@@ -13,34 +28,41 @@ body {
   
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+} 
 
 h1{
-  font-size: 48px;
+  font-size: var(--font-size-h1);
   line-height: 58px;
-  color:#fff;
-  font-weight: bolder;
+  color:var(--menu-txt-color);
+  font-weight: var(--bold-font);
   text-align: center;
   margin-top: 25%;
 }
 
 p{
- font-size: 40px;
- font-family: montserrat, sans-serif;
- color: #fff;
- margin-top: .5em;
- margin-left: 10%;
- margin-right: 10%;
- padding-bottom: 20em;
- text-align: center;
- font-weight: bolder; 
+  font-size: var(--font-size-txt);
+  font-family: var(--font);
+  color: var(--txt-color);
+  margin-top: .5em;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 20em;
+  text-align: center;
+  font-weight: var(--bold-font); 
 }
 
-strong{
-  font-weight: bolder;
-}
+/* ---- LANDINGSPAGINA ---- */
 
 .Vini-Mini-img {
-  background-image: url(https://cdn.shopify.com/s/files/1/0530/6718/6365/files/website_1504x992.jpg?v=1643311227);
+  --bg1:url(https://cdn.shopify.com/s/files/1/0530/6718/6365/files/website_1504x992.jpg?v=1643311227);
+  
+  background-image: var(--bg1);
+  
   position: relative;
   isolation: isolate;
   z-index: -1;
@@ -51,41 +73,25 @@ strong{
   position: absolute;
   z-index: -1;
   inset: 0;
-  background-color: #72AFA6;
+  background-color: var(--main-color);
   opacity: .5;
 }
 
-/* menu */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: montserrat, sans-serif, Helvetica;
-} 
-
-:root {
-  --pinda: #72AFA6;
-  --white: #fff;
-  --grey: #f5f5f5;
-  --back1: #222;
-  --black2: #999;
-  --card: #D5EDEE;
-}  
+/* ---- CONTAINER QUERY ---- */
 
 .container {
   position: relative;
   width: 100%;
 }  
 
-/* navigation */
+/* ---- MENU ---- */
 
 .navigation {
   position: fixed;
   width: 340px;
   height: 100%;
-  background: var(--pinda);
-  border-left: 10px solid var(--pinda);
+  background: var(--main-color);
+  border-left: 10px solid var(--main-color);
   transition: 0.5s;
   overflow: hidden;
 } 
@@ -111,7 +117,7 @@ strong{
 
 .navigation ul li:hover,
 .navigation ul li.hovered {
-  background: var(--white);
+  background: var(--background-color);
 } 
 
 .navigation ul li:nth-child(1) {
@@ -125,12 +131,12 @@ strong{
   width: 100%;
   display: flex;
   text-decoration: none;
-  color: var(--white);
+  color: var(--menu-txt-color);
 } 
 
 .navigation ul li:hover a,
 .navigation ul li.hovered a {
-  color: var(--blue);
+  color: var(--txt-color);
 } 
 
 .navigation ul li a .icon {
@@ -143,7 +149,7 @@ strong{
 } 
 
 .navigation ul li a .icon ion-icon {
-  font-size: 1.75em;
+  font-size: var(--font-size-txt);
 }
 
 .navigation ul li a .title {
@@ -156,7 +162,7 @@ strong{
   white-space: nowrap;
 } 
 
-/* curve outside */ 
+/* ---- MENU CURVE ---- */
 
 .navigation ul li:hover a::before,
 .navigation ul li.hovered a::before {
@@ -168,7 +174,7 @@ strong{
   width: 50px;
   background: transparent;
   border-radius: 50%;
-  box-shadow: 35px 35px 0 10px var(--white);
+  box-shadow: 35px 35px 0 10px var(--background-color);
   pointer-events: none;
 }  
 
@@ -182,19 +188,19 @@ strong{
   width: 50px;
   background: transparent;
   border-radius: 50%;
-  box-shadow: 35px -35px 0 10px var(--white);
+  box-shadow: 35px -35px 0 10px var(--menu-txt-color);
   pointer-events: none;
 } 
 
 
-/* main */ 
+/* ---- MAIN SECTION ---- */ 
 
 .main {
   position: absolute;
   width: calc(100% - 300px);
   left: 300px;
   min-height: 100vh;
-  background: var(--white);
+  background: var(--background-color);
   transition: 0.5s;
 } 
 
@@ -235,14 +241,15 @@ margin-left: 45em;
   position: relative;
   width: 166px;
   height: 60px;
-  background:var(--white);
+  background:var(--background-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.5em;
+  font-size: var(--font-size-h1);
   cursor: pointer;
- 
 }
+
+/* ---- RESPONSIVE ---- */
 
 @media only screen and (max-width: 1190px) { 
 
