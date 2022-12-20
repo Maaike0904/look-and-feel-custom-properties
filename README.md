@@ -1,3 +1,4 @@
+De instructie vind je in: docs/INSTRUCTIONS.md
 
 # Vini Mini 🥜 - Living Styleguide
 
