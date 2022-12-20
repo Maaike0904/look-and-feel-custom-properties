@@ -11,13 +11,6 @@
   --font-size-txt:40px;
 }
 
-@font-face {
-  --font:'Montserrat',sans-serif;
-  --bold-font:bolder;
-}
-
-
-
 /* ---- BODY SETTINGS ---- */
 
 body {
